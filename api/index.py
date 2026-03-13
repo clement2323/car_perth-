@@ -4,6 +4,7 @@ Tous les /api/* sont routés ici via vercel.json rewrites.
 Les CSV dans data/ sont lus en lecture seule (committés dans le repo).
 """
 
+import math
 import sys
 from pathlib import Path
 
@@ -90,9 +91,18 @@ def _invalidate_cache():
     _cache["capital"] = None
 
 
+def _clean(v):
+    """Remplace NaN/Inf (non sérialisables JSON) par None."""
+    if isinstance(v, float) and (math.isnan(v) or math.isinf(v)):
+        return None
+    return v
+
+
 def _df_to_records(df: pd.DataFrame) -> list[dict]:
     df = df.where(pd.notnull(df), None)
-    return df.to_dict(orient="records")
+    records = df.to_dict(orient="records")
+    # Second passage : certains numpy floats échappent au premier filtre
+    return [{k: _clean(v) for k, v in rec.items()} for rec in records]
 
 
 # ---------------------------------------------------------------------------
