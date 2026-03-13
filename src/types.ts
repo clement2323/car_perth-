@@ -31,6 +31,7 @@ export interface Listing {
   alerts_count: number
   alerts_detail: string | null
   median_price: number | null
+  is_estimated: boolean | null
 }
 
 export interface CapitalListing {
@@ -43,6 +44,7 @@ export interface CapitalListing {
   listing_url: string | null
   market_median: number | null
   diff_pct: number | null
+  is_estimated: boolean | null
 }
 
 export interface ModelStat {

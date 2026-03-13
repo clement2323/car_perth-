@@ -91,6 +91,9 @@ export default function CapitalTab() {
                     </td>
                     <td className="px-4 py-3 text-right font-semibold text-slate-900">
                       {formatPrice(l.price)}
+                      {l.is_estimated && (
+                        <span title="Prix estimé" className="ml-1 text-xs font-normal text-amber-500">~estimé</span>
+                      )}
                     </td>
                     <td className="px-4 py-3 text-right text-slate-500">
                       {l.market_median ? formatPrice(l.market_median) : '—'}

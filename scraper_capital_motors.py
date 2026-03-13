@@ -34,7 +34,7 @@ CSV_FIELDS = [
     "make", "model", "year", "km", "price",
     "seller_type", "dealer_name", "location",
     "listing_url", "date_scraped", "source",
-    "badge", "transmission",
+    "badge", "transmission", "is_estimated",
 ]
 
 
@@ -288,6 +288,7 @@ def generate_sample_data_capital() -> list[dict]:
         "source": "capital_motors",
         "badge": "",
         "transmission": "Automatic",
+        "is_estimated": True,
     }
 
     samples = [

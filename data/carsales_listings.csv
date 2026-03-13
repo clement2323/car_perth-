@@ -1,24 +1,24 @@
-make,model,year,km,price,seller_type,dealer_name,location,listing_url,date_scraped,source,badge,transmission
-Toyota,Corolla,2016,112000,12500,dealer,Perth City Toyota,Perth WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent,Automatic
-Toyota,Corolla,2015,98000,11990,private,,Osborne Park WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent Sport,Automatic
-Toyota,Corolla,2017,87000,14500,dealer,Autosports WA,Midland WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,SX,CVT
-Toyota,Corolla,2014,135000,9500,private,,Joondalup WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent,Automatic
-Toyota,Corolla,2018,72000,15000,dealer,CarOne Perth,Cannington WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent Sport,CVT
-Mazda,3,2015,105000,12000,dealer,Westcoast Mazda,Osborne Park WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Maxx,Automatic
-Mazda,3,2016,88000,13500,private,,Fremantle WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,SP25,Automatic
-Mazda,3,2014,142000,9990,dealer,AutoNation WA,Malaga WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Neo,Automatic
-Mazda,3,2017,79000,14200,dealer,Direct Cars WA,Victoria Park WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Maxx Sport,Automatic
-Honda,Civic,2013,118000,10500,dealer,Perth Honda,Cannington WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi,Automatic
-Honda,Civic,2015,95000,12800,private,,Subiaco WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi-S,CVT
-Honda,Civic,2012,155000,8500,private,,Rockingham WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi,Automatic
-Hyundai,i30,2015,92000,11000,dealer,City Hyundai,Osborne Park WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Automatic
-Hyundai,i30,2013,128000,8900,private,,Belmont WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Manual
-Hyundai,i30,2016,75000,12500,dealer,WA Auto Group,Midland WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Elite,Automatic
-Hyundai,i30,2014,108000,10200,dealer,Perth Motors,Perth WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Automatic
-Honda,Jazz,2013,98000,10500,dealer,Honda Perth,Cannington WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi,CVT
-Honda,Jazz,2011,122000,8200,private,,Stirling WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi,Automatic
-Honda,Jazz,2014,88000,11200,dealer,AutoPlex Perth,Malaga WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi-S,CVT
-Suzuki,Swift,2014,88000,9500,private,,Claremont WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL,Automatic
-Suzuki,Swift,2015,75000,10800,dealer,Suzuki Perth,Osborne Park WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL Navigator,CVT
-Suzuki,Swift,2012,138000,7500,private,,Armadale WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL,Automatic
-Suzuki,Swift,2016,62000,11500,dealer,WA Deals,Cannington WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL Navigator,CVT
+make,model,year,km,price,seller_type,dealer_name,location,listing_url,date_scraped,source,badge,transmission,is_estimated
+Toyota,Corolla,2016,112000,12500,dealer,Perth City Toyota,Perth WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent,Automatic,True
+Toyota,Corolla,2015,98000,11990,private,,Osborne Park WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent Sport,Automatic,True
+Toyota,Corolla,2017,87000,14500,dealer,Autosports WA,Midland WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,SX,CVT,True
+Toyota,Corolla,2014,135000,9500,private,,Joondalup WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent,Automatic,True
+Toyota,Corolla,2018,72000,15000,dealer,CarOne Perth,Cannington WA,https://www.carsales.com.au/cars/toyota/corolla/,2026-03-13,carsales,Ascent Sport,CVT,True
+Mazda,3,2015,105000,12000,dealer,Westcoast Mazda,Osborne Park WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Maxx,Automatic,True
+Mazda,3,2016,88000,13500,private,,Fremantle WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,SP25,Automatic,True
+Mazda,3,2014,142000,9990,dealer,AutoNation WA,Malaga WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Neo,Automatic,True
+Mazda,3,2017,79000,14200,dealer,Direct Cars WA,Victoria Park WA,https://www.carsales.com.au/cars/mazda/3/,2026-03-13,carsales,Maxx Sport,Automatic,True
+Honda,Civic,2013,118000,10500,dealer,Perth Honda,Cannington WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi,Automatic,True
+Honda,Civic,2015,95000,12800,private,,Subiaco WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi-S,CVT,True
+Honda,Civic,2012,155000,8500,private,,Rockingham WA,https://www.carsales.com.au/cars/honda/civic/,2026-03-13,carsales,VTi,Automatic,True
+Hyundai,i30,2015,92000,11000,dealer,City Hyundai,Osborne Park WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Automatic,True
+Hyundai,i30,2013,128000,8900,private,,Belmont WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Manual,True
+Hyundai,i30,2016,75000,12500,dealer,WA Auto Group,Midland WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Elite,Automatic,True
+Hyundai,i30,2014,108000,10200,dealer,Perth Motors,Perth WA,https://www.carsales.com.au/cars/hyundai/i30/,2026-03-13,carsales,Active,Automatic,True
+Honda,Jazz,2013,98000,10500,dealer,Honda Perth,Cannington WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi,CVT,True
+Honda,Jazz,2011,122000,8200,private,,Stirling WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi,Automatic,True
+Honda,Jazz,2014,88000,11200,dealer,AutoPlex Perth,Malaga WA,https://www.carsales.com.au/cars/honda/jazz/,2026-03-13,carsales,VTi-S,CVT,True
+Suzuki,Swift,2014,88000,9500,private,,Claremont WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL,Automatic,True
+Suzuki,Swift,2015,75000,10800,dealer,Suzuki Perth,Osborne Park WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL Navigator,CVT,True
+Suzuki,Swift,2012,138000,7500,private,,Armadale WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL,Automatic,True
+Suzuki,Swift,2016,62000,11500,dealer,WA Deals,Cannington WA,https://www.carsales.com.au/cars/suzuki/swift/,2026-03-13,carsales,GL Navigator,CVT,True

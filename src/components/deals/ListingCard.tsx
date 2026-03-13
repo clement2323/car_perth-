@@ -35,7 +35,13 @@ export default function ListingCard({ listing }: Props) {
               {listing.badge ? <span className="text-slate-400 font-normal"> · {listing.badge}</span> : null}
             </h3>
             <div className="mt-1.5 flex flex-wrap gap-3 text-sm text-slate-600">
-              <span className="font-semibold text-slate-900 text-base">{formatPrice(listing.price)}</span>
+              <span className="font-semibold text-slate-900 text-base">
+                {formatPrice(listing.price)}
+                {listing.is_estimated && (
+                  <span title="Prix estimé — données non scrapées en temps réel"
+                    className="ml-1 text-xs font-normal text-amber-500 align-super">~estimé</span>
+                )}
+              </span>
               <span>{formatKm(listing.km)}</span>
               {listing.transmission && <span className="text-slate-400">{listing.transmission}</span>}
             </div>
